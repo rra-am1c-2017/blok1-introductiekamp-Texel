@@ -8,6 +8,7 @@
       
       <!-- Hieronder staat een internal css stylesheet -->
       <style>
+        /* Dit is wat tekst */
         #sectie_2 {
            border: 5px solid blue;
            background-color: pink;
@@ -17,6 +18,7 @@
    </head>
    <body>
       <header>
+          <!-- Dit is wat tekst die niet zichtbaar is op het scherm -->
          <h1>Introductieweek Texel</h1>
          <nav>
                <a href="#sectie_1">De Duinen van Texel</a> || 
@@ -28,7 +30,7 @@
          <article>
             <h2 id="sectie_1" 
                 style="border: 5px solid green; width: 300px; background-color: yellow;">De duinen van Texel</h2>
-            <section>
+            <section class="black_border">
                <h3>Duintop foto</h3>
                <p>Hier sta ik op de heuvel bij camping De Sluftervallei</p>
                <img src="./pictures/IMG_20170824_123345.jpg" 
@@ -36,9 +38,9 @@
                     width="400">
             </section>
             <h2 id="sectie_2">Vervoer van de bagage</h2>
-            <section>
+            <section class="black_border">
                <h3>Onze vrachtwagen van de Texelreis</h3>
-               <p>De vrachtwagen die we hebben gebruikt had een laadvermogen 
+               <p id="klein">De vrachtwagen die we hebben gebruikt had een laadvermogen 
                   van 18 kubieke meter. Dit was ruim voldoende om alle bagage (eten en rugzaken)
                   te vervoeren naar Den Helder</p>
                <video width="400" 
@@ -51,8 +53,8 @@
                </video>
             </section>
             <h2 id="sectie_3">De boot naar Texel</h2>
-            <section>
-               <h3>Texelstroom</h3>
+            <section class="black_border">
+               <h3 class="black_border">Texelstroom</h3>
                <p>In de onderstaande video is de veerboot te zien waar we naar Texel mee zijn
                   gevaren. Dit duurde ongeveer 20 minuten.
                </p>

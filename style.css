@@ -1,5 +1,33 @@
+main, header {
+   margin: 0px auto;
+   width: 800px;
+}
+
+
 #sectie_3 {
    border: 5px solid orange;
    width: 400px;
    background-color: grey;
+   padding: 100px 200px;
+   margin: 0px auto;
+   /* Dit is wat tekst */
+}
+
+/* Hier worden alle p-tags geselecteerd door middel van hun tag-naam */
+p {
+   font-size: 30px;
+}
+
+/* Hier wordt een tag met id="klein" geselecteerd */
+#klein {
+   font-size: 15px;
+}
+
+/* Hier worden tags met de class="black_border" geselecteerd */
+.black_border {
+   border: 5px solid black;
+}
+
+[href='#sectie_1'] {
+   color: green;
 }
