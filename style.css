@@ -5,11 +5,12 @@ main, header {
 
 
 #sectie_3 {
-   border: 5px solid orange;
-   width: 400px;
+   border: 50px solid orange;
+   width: 300px;
    background-color: grey;
    padding: 100px 200px;
    margin: 0px auto;
+   border-radius: 20px;
    /* Dit is wat tekst */
 }
 
